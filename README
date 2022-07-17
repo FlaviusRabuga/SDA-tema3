@@ -1,0 +1,17 @@
+    Am creat structurile TD si TF ce reprezinta un nod din
+arborele de cautare.
+    In main am parcurs cuvintele si am apelat functii corespunzatoare
+pentru fiecare task si am alocat directorul root.
+    Functiile creeazaDirector / Fisier si insereazaDirector/ Fisier
+aloca si insereaza in directorul specificat.
+    Cautare si verificarea daca un anumit director / fisier se afla
+intr-un director se face prin parcurgerea stanga, radacina, dreapta.
+    Stergerea dintr-un folder se face prin creearea unui director 
+copie in care inseram ordonat toate directoarele / fisierele cu exceptia 
+celui ce trebuia sters, urmand sa dezalocam memoria acestuia, iar in final 
+mutarea directorului copie in cel original.
+    In main "curent" pointeaza catre directorul root, iar la apelul 
+functiei cd, "curent" va pointa spre directorul specificat.
+    Functia pwd este recursiva, afiseaza numele directorului curent
+si se autopeleaza pentru parintele directorului curent pana ajunge la root.
+
